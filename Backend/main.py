@@ -9,12 +9,10 @@ from datetime import datetime
 
 app = Flask(__name__)
 CORS(app, support_credentials=True)
-
-FIREWORKS_API_KEY = "zLvHIvRZLnEmAGCGYbCzSYx9sqHidDmOkYLBDwvB7MbdWFCl"
+# Enter new fireworks and Neurelo API Keys
+FIREWORKS_API_KEY = "Fireworks_API_KEY" 
 NEURELO_API_URL = "https://us-west-2.aws.neurelo.com/rest/user_requests"
-NEURELO_API_KEY = ("neurelo_9wKFBp874Z5xFw6ZCfvhXTGX5vYS/bbD99o3iuuYi5OaN1YNcm8X/wP6BK5rCoxsnuCzU"
-                   "+DSWWnA2HTr1SbRNSDU6O2Dzyby/QShv4i2z203kMppHx6i5B5WkVdFZDhZ3Lkdy7CgzY/RCLRSCNhqqrskqwlvRPQupV2lkO"
-                   "+aMaBVVTJtYZt13rQBC12HmnsA_WFbrbBk4B0Y6h9Lffmt6sagkxoD+xVnn4D5UJBX7t6Q=")
+NEURELO_API_KEY = ("Neurelo_API_KEY")
 
 
 def encode_image(image_path):
