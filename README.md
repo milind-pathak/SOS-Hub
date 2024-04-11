@@ -1,6 +1,7 @@
 # SOS-Hub (Winner- "Best Emerging Technology" at SFHacks'24)
 
 Link- https://soshub.us/
+
 Devpost- https://devpost.com/software/sos-hub?ref_content=user-portfolio&ref_feature=in_progress
 
 SOS-Hub is an AI-powered emergency response platform that leverages the power of computer vision and natural language processing to assist first responders and emergency services.
